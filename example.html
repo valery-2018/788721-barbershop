@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>range</title>
+    <link href="range-2.css" rel="stylesheet" type="text/css" >
+  </head>
+  <body>
+  <h3>Цена</h3>
+  <form action="/echo" method="post" oninput="maximumpriceoutput.value=dayscount.value">
+      <div class="half-width">
+         <!-- <label for="dayscount">Количество дней</label> -->
+         <input type="range" id="dayscount" name="dayscount" min="0" max="34000" step="200">
+      </div>
+       <div class="output-area">
+         <!-- Область для вывода значения -->
+         <output name="maximumpriceoutput"></output>
+       </div>
+       </form>
+   </body>
+ </html>
